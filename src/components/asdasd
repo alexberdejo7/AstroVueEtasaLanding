@@ -1,0 +1,118 @@
+<div class="mt-7 px-5 max-w-screen-xl text-center text-white">
+        <h1
+          
+          class=" mb-10 uppercase mt-10 text-3xl font-black  
+          leading-tight text-etasa
+           bg-clip-text xl:text-5xl md:text-4xl lg:text-5xl"
+        >
+         Contruccion <p class="font-semibold text-lg text-white"> y fabricacion 
+          de estructuras metálicas de </p> <p class="text-white font-normal text-2xl">  <label class="text-etasa text-2xl font-black">acero</label></p>
+        </h1>
+
+        <hr class="bg-white mt-7 mb-5 ">
+
+        <p class="mb-5 mt-5 text-base font-normal text-white lg:text-xl sm:px-16 lg:px-48">
+          Construcción, montajes, diseño de estructuras, edificios metálicos, residencias modernas 
+          <label class="font-semibold text-etasa"> y todo lo
+             relacionado al acero 
+          con experiencia fundamentada en 35 años </label> 
+
+          
+          <label class="font-normal">de servicio de calidad.</label> </p>
+        
+
+        <div class="mt-10 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 
+        sm:space-x-4 ">
+          <a
+            
+            href="#Proyectos"
+            class=" inline-flex justify-center items-center py-2 px-1 
+            text-base font-medium text-center hover:text-white
+             text-black rounded-lg bg-white
+              hover:bg-yellow-600 focus:ring-4
+               focus:ring-blue-300 dark:focus:ring-blue-900 z-50"
+          >
+            Cotizar proyecto
+            <svg
+              class="w-3.5 h-3.5 ml-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 d9"
+              />
+            </svg>
+          </a>
+          <a
+            
+            href="#footer"
+            class="z-50 inline-flex justify-center hover:text-gray-900 items-center py-3 px-3 text-sm font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
+          >
+            ¿Dónde encontrarnos?
+          </a>
+        </div>
+
+        <div class="mt-12 mb-5 flex items-center justify-center animate-bounce">
+          <svg class="text-white w-6 h-5  mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" 
+            d="M12 2.25a.75.75 0 01.75.75v16.19l6.22-6.22a.75.75 0 111.06 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06l6.22 6.22V3a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+          </svg>
+        </div>
+
+        <!-- <button class=" inline-flex items-center justify-center mb-10">
+          <a href="https://youtu.be/WMpXkRga_OU" aria-label="Reproducir video en Youtube" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/images/youtubeicons.svg" alt="YouTube Icon" class=" w-12 h-12 mr-2" >
+          </a>
+        </button> -->
+      </div>
+
+
+
+
+
+      <section class="relative pt-32 lg:pt-36">
+    <div class="flex flex-col lg:flex-row gap-10 lg:gap-12">
+        <div class="absolute w-full lg:w-1/2 inset-y-0 lg:right-0 ">
+            <span class="absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 skew-x-12 rounded-3xl bg-green-400 blur-xl opacity-60 lg:opacity-95 lg:block hidden"></span>
+            <span class="absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80"></span>
+        </div>
+        <span class="w-4/12 lg:w-2/12 aspect-square bg-gradient-to-tr from-primary to-green-400 absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90"></span>
+        <div class="relative flex flex-col items-center text-center lg:text-left lg:py-7 xl:py-8 lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
+            
+            <h1 class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight font-bold text-heading-1">
+                Alex <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">Berdejo</span> Frontend Web Developer.
+            </h1>
+            <p class="mt-8">
+                Creative Front-End Developer focused on helping any person or company to build high-level web projects from Mexico.
+            </p>
+            <div class="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
+                <div class="flex sm:flex-row flex-col gap-5 w-full">
+                    <form action="#" class="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body  focus-within:border-primary">
+                        <span class="min-w-max pr-2 border-r border-box-border">
+                            <!-- Icono SVG -->
+                        </span>
+                        <input type="email" name="" id="" placeholder="alexandro.berdejo@gmail.com" class="w-full py-3 outline-none bg-transparent">
+                        <button type="submit" class="min-w-max text-white bg-primary rounded-full">
+                            <span class="hidden sm:flex relative z-[5]">
+                                Contact me
+                            </span>
+                            <span class="flex sm:hidden relative z-[5]">
+                                <!-- Icono SVG -->
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl">
+            <img src="/images/image1.webp" alt="Hero image" width="2350" height="2359" class="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96">
+        </div>
+    </div>
+</section>

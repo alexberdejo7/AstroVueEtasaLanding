@@ -1,119 +1,48 @@
----
+<section class="min-h-screen bg-no-repeat bg-cover bg-center relative" style="background-image: url('../../public/ImagenesEtasa/imagenfondo.jpeg')">
+  <div class="absolute inset-0 bg-gray-950" style="opacity: .9;"></div>
+  <div class="bg-gray-950 bg-opacity-0 absolute inset-0"></div>
+  
+  <!-- Contenedor de contenido centrado -->
+  <div class="text-center p-5 md:p-10 lg:p-20 space-y-6 lg:space-y-10 relative z-10">
+    <!-- Título y subtítulo -->
+    <h1 class="text-3xl mt-7 md:text-5xl lg:text-5xl font-extrabold uppercase text-white">
+      Construcción
+      <p class="text-xl md:text-2xl text-etasa font-black">y fabricación de estructuras metálicas de</p>
+      <p class="text-xl font-normal"><span class="font-bold">acero</span></p>
+    </h1>
 
----
+    <hr class="border-white mx-auto w-2/4 my-10">
 
+    <!-- Descripción -->
+    <p class="text-base lg:text-xl font-thin text-etasa max-w-2xl mx-auto">
+      Construcción, montajes, diseño de estructuras, edificios metálicos, residencias modernas
+      <span class="text-gray-200 font-black">y todo lo relacionado al acero</span> 
+      con experiencia fundamentada en 35 años
+      <span class="font-thin">de servicio de calidad.</span>
+    </p>
 
-
-  <section class="min-h-[90vh] w-full relative">
-    
-
-    <div class="bg-[url('../../public//ImagenesEtasa/imagenfondo.jpeg')] bg-cover bg-center opacity-20 mx-auto absolute inset-0 z-auto"></div>
-
-    <div class="flex flex-col items-center justify-center w-full h-full relative">
-      <div class="hexagonal-mask w-67 mt-10 rounded-full -mb-5 bg-yellow-500">
-  <img class="w-full h-full  rounded-full" src="/ImagenesEtasa/etasaworker.JPG" alt="workeretasa">
-</div>
-
-      <!-- Contenido de texto y botones -->
-      <div class="mt-7 px-5 max-w-screen-xl text-center text-white">
-        <h1
-          
-          class=" mb-10 uppercase mt-10 text-3xl font-black  
-          leading-tight text-etasa
-           bg-clip-text xl:text-5xl md:text-4xl lg:text-5xl"
-        >
-         Contruccion <p class="font-semibold text-lg text-white"> y fabricacion 
-          de estructuras metálicas de </p> <p class="text-white font-normal text-2xl">  <label class="text-etasa text-2xl font-black">acero</label></p>
-        </h1>
-
-        <hr class="bg-white mt-7 mb-5 ">
-
-        <p class="mb-5 mt-5 text-base font-normal text-white lg:text-xl sm:px-16 lg:px-48">
-          Construcción, montajes, diseño de estructuras, edificios metálicos, residencias modernas 
-          <label class="font-semibold text-etasa"> y todo lo
-             relacionado al acero 
-          con experiencia fundamentada en 35 años </label> 
-
-          
-          <label class="font-normal">de servicio de calidad.</label> </p>
-        
-
-        <div class="mt-10 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 
-        sm:space-x-4 ">
-          <a
-            
-            href="#Proyectos"
-            class=" inline-flex justify-center items-center py-2 px-1 
-            text-base font-medium text-center hover:text-white
-             text-black rounded-lg bg-white
-              hover:bg-yellow-600 focus:ring-4
-               focus:ring-blue-300 dark:focus:ring-blue-900 z-50"
-          >
-            Cotizar proyecto
-            <svg
-              class="w-3.5 h-3.5 ml-2"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 d9"
-              />
-            </svg>
-          </a>
-          <a
-            
-            href="#footer"
-            class="z-50 inline-flex justify-center hover:text-gray-900 items-center py-3 px-3 text-sm font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
-          >
-            ¿Dónde encontrarnos?
-          </a>
-        </div>
-
-        <div class="mt-12 mb-5 flex items-center justify-center animate-bounce">
-          <svg class="text-white w-6 h-5  mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <path fill-rule="evenodd" 
-            d="M12 2.25a.75.75 0 01.75.75v16.19l6.22-6.22a.75.75 0 111.06 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06l6.22 6.22V3a.75.75 0 01.75-.75z" clip-rule="evenodd" />
-          </svg>
-        </div>
-
-        <!-- <button class=" inline-flex items-center justify-center mb-10">
-          <a href="https://youtu.be/WMpXkRga_OU" aria-label="Reproducir video en Youtube" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/youtubeicons.svg" alt="YouTube Icon" class=" w-12 h-12 mr-2" >
-          </a>
-        </button> -->
-      </div>
+    <!-- Botones -->
+    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-5">
+      <!-- Botón 1 -->
+      <a href="#Proyectos" class="inline-flex items-center justify-center py-2 px-4 text-base font-medium text-black bg-white rounded-lg hover:bg-orange-600 hover:text-white focus:ring-4 focus:ring-blue-300">
+        Cotizar proyecto
+        <!-- Icono del botón -->
+        <svg class="ml-2 w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+        </svg>
+      </a>
+      
+      <!-- Botón 2 -->
+      <a href="#footer" class="inline-flex items-center justify-center py-3 px-3 text-sm font-medium text-white bg-transparent border border-white rounded-lg hover:bg-gray-100 hover:text-black focus:ring-4 focus:ring-gray-400">
+        ¿Dónde encontrarnos?
+      </a>
     </div>
-  </section>
 
-
-<style scoped>
-
-
-@keyframes wave {
-  2% {
-    transform: translateX(1);
-  }
-  25% {
-    transform: translateX(-25%);
-  }
-  50% {
-    transform: translateX(-50%);
-  }
-  75% {
-    transform: translateX(-25%);
-  }
-  100% {
-    transform: translateX(1);
-  }
-}
-
-.hexagonal-mask {
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-</style>
+    <!-- Icono de desplazamiento hacia abajo -->
+    <div class="animate-bounce mt-10 mb-2">
+      <svg class="text-white w-6 h-5 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v16.19l6.22-6.22a.75.75 0 111.06 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06l6.22 6.22V3a.75.75 0 01.75-.75z" clip-rule="evenodd"></path>
+      </svg>
+    </div>
+  </div>
+</section>

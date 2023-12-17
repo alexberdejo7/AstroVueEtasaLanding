@@ -1,0 +1,19 @@
+---
+// src/components/Cards.astro
+import services from '../utils/Services.js';
+---
+
+<div class="grid p-10 grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols- mb-5 mt-14">
+    {services.map(card => (
+        <div class="group bg-gray-900 border border-yellow-600 shadow-md shadow-etasa hover:bg-gray-950 rounded-xl overflow-hidden mx-auto transition-transform duration-300 ease-in-out hover:-translate-y-2">
+            <a href={card.link}>
+                <img class="h-48 w-full object-cover" src={card.imagen} alt={card.titulo} />
+            </a>
+            <div class="p-4">
+                <h3 class="text-md lg:text-lg xl:text-xl font-semibold text-center text-white mb-2">{card.titulo}</h3>
+                <hr class="border border-etasa mb-2">
+                <p class="text-sm lg:text-base font-light text-center text-white">{card.descripcion}</p>
+            </div>
+        </div>
+    ))}
+</div>
