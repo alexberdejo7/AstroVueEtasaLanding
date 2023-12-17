@@ -43,16 +43,16 @@ import '@fortawesome/fontawesome-free/css/all.css';
     >
       <ul class="h-full bg-gray-950 gap-3 font-bold opacity-70 flex flex-col justify-center items-center">
         <li>
-          <a href="#" class="block text-white hover:text-amber-500" @click.stop="toggleMobileMenu">Inicio</a>
+          <a href="#" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Inicio</a>
         </li>
         <li>
-          <a href="#Servicios" class="text-white hover:text-amber-500" @click.stop="toggleMobileMenu">Servicios</a>
+          <a href="#Servicios" class="text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Servicios</a>
         </li>
         <li>
-          <a href="#Swiper" class="block text-white hover:text-amber-500" @click.stop="toggleMobileMenu">Proyectos</a>
+          <a href="#Proyectos" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Proyectos</a>
         </li>
         <li>
-          <a href="#footer" class="block text-white hover:text-amber-500" @click.stop="toggleMobileMenu">Contacto</a>
+          <a href="#Contacto" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Contacto</a>
         </li>
         <!-- Botón para cerrar el menú desplegable -->
         <li class="mt-4">

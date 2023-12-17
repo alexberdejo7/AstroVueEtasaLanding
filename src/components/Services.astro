@@ -1,6 +1,6 @@
 ---
 import Paragraph from '../components/Paragraph.astro'
-import YoutubeVideoIntro from '../components/shared/YoutubeVideoIntro.astro'
+import YoutubeVideoIntro from './shared/YoutubeVideoIntro.vue'
 
 
 ---
@@ -13,14 +13,14 @@ import YoutubeVideoIntro from '../components/shared/YoutubeVideoIntro.astro'
      
      
      <Paragraph class="flex">
-        <h3 class="text-black uppercase text-center text-xl md:text-2xl lg:text-3xl mb-2 font-bold lg:font-extrabold"> ¿Qué hacemos? </h3>
+        <h3 class="text-black font-raleway uppercase text-center text-xl md:text-2xl lg:text-3xl mb-2 font-bold lg:font-extrabold"> ¿Qué hacemos? </h3>
 
 
      </Paragraph>
     
 
         <div class="mt-10 m-3 p-1 mx-auto w-full md:w-3//4 lg:w-3/4  "  >
-             <YoutubeVideoIntro client:visible/>
+             <YoutubeVideoIntro client:load/>
         </div>
     
      
@@ -54,7 +54,7 @@ import YoutubeVideoIntro from '../components/shared/YoutubeVideoIntro.astro'
 <div class="bg-gray-200 max-w-[630px]   rounded-xl border border-gray-300 p-5 shadow-gray-300 shadow-sm
  text-white mb-7 items-center mx-auto ">
 
-  <div class="flex justify-center space-x-3 lg:space-x-7   overflow-hidden">
+  <div class="flex justify-center space-x-3 lg:space-x-7 m-2 mx-auto overflow-hidden">
     <div class="flex flex-col items-center">
     <span class="text-md md:text-lg lg:text-xl text-black font-bold">30+</span>
     <p class="text-slate-800 italic font-thin text-sm">Años de experiencia</p>
@@ -62,12 +62,12 @@ import YoutubeVideoIntro from '../components/shared/YoutubeVideoIntro.astro'
   <div class="border-r border-gray-800 h-10"></div>
   <div class="flex flex-col items-center">
     <span class="text-md md:text-lg lg:text-xl font-bold text-black">100+</span>
-    <p class="text-slate-800 italic font-thin text-sm">Proyectos completados</p>
+    <p class="text-slate-800 max-w-prose italic font-thin text-sm">Proyectos completados</p>
   </div>
   <div class="border-r border-gray-800 h-10"></div>
   <div class="flex flex-col items-center">
     <span class="text-md md:text-lg lg:text-xl font-bold text-black">50+ </span>
-    <p class="text-slate-800 italic font-thin text-sm"> Clientes </p>
+    <p class="text-slate-800 italic font-thin text-sm mr-2"> Clientes   </p>
   </div>
   
  

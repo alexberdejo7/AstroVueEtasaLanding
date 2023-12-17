@@ -1,30 +1,37 @@
-<section class="min-h-screen bg-no-repeat bg-cover bg-center relative" style="background-image: url('../../public/ImagenesEtasa/imagenfondo.jpeg')">
-  <div class="absolute inset-0 bg-gray-950" style="opacity: .9;"></div>
+---
+
+
+---
+
+
+<section id="hero-section" class="min-h-screen bg-no-repeat bg-cover bg-center relative" style="background-image: url('/ImagenesEtasa/imagenfondo.jpeg')">
+  <div class="absolute inset-0 bg-gray-950" style="opacity: 86%;"></div>
   <div class="bg-gray-950 bg-opacity-0 absolute inset-0"></div>
   
   <!-- Contenedor de contenido centrado -->
-  <div class="text-center p-5 md:p-10 lg:p-20 space-y-6 lg:space-y-10 relative z-10">
+  <div class="text-center p-5 mt-3 md:p-10 lg:p-20 space-y-6 lg:space-y-10 relative z-10">
     <!-- Título y subtítulo -->
-    <h1 class="text-3xl mt-7 md:text-5xl lg:text-5xl font-extrabold uppercase text-white">
+    <h1 class="text-3xl font-raleway mt-14 md:text-5xl lg:text-5xl font-extrabold uppercase text-white">
       Construcción
-      <p class="text-xl md:text-2xl text-etasa font-black">y fabricación de estructuras metálicas de</p>
-      <p class="text-xl font-normal"><span class="font-bold">acero</span></p>
+      <p class="text-xl md:text-2xl text-etasa font-black">y fabricación de estructuras metálicas </p> 
+      <p class="text-xl font-raleway font-normal"><span class="font-bold">de acero.</span></p>
     </h1>
 
-    <hr class="border-white mx-auto w-2/4 my-10">
+    <hr class="border-white mx-auto w-3/4 my-14">
 
     <!-- Descripción -->
-    <p class="text-base lg:text-xl font-thin text-etasa max-w-2xl mx-auto">
+    <p class="text-md lg:text-xl font-thin text-etasa max-w-2xl mx-auto">
       Construcción, montajes, diseño de estructuras, edificios metálicos, residencias modernas
-      <span class="text-gray-200 font-black">y todo lo relacionado al acero</span> 
+      <span class="text-gray-300 text-lg font-black">y todo lo relacionado al acero</span> 
       con experiencia fundamentada en 35 años
-      <span class="font-thin">de servicio de calidad.</span>
+      <span class="font-black text-gray-300 text-lg">de servicio de calidad.</span>
     </p>
 
     <!-- Botones -->
-    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-5">
-      <!-- Botón 1 -->
-      <a href="#Proyectos" class="inline-flex items-center justify-center py-2 px-4 text-base font-medium text-black bg-white rounded-lg hover:bg-orange-600 hover:text-white focus:ring-4 focus:ring-blue-300">
+    <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-5">
+      <!-- Botón 1 - Cotizar proyecto -->
+      <a href="https://wa.me/527773507884" class="inline-flex items-center justify-center py-2 px-4 text-base font-medium 
+       text-black bg-white rounded-lg hover:bg-orange-600 hover:text-white focus:ring-4 focus:ring-blue-300">
         Cotizar proyecto
         <!-- Icono del botón -->
         <svg class="ml-2 w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
@@ -32,17 +39,28 @@
         </svg>
       </a>
       
-      <!-- Botón 2 -->
-      <a href="#footer" class="inline-flex items-center justify-center py-3 px-3 text-sm font-medium text-white bg-transparent border border-white rounded-lg hover:bg-gray-100 hover:text-black focus:ring-4 focus:ring-gray-400">
+      <!-- Botón 2 - ¿Dónde encontrarnos? -->
+      <a href="#footer" class="inline-flex items-center justify-center py-2 px-4 text-sm font-medium text-white 
+      bg-transparent border border-white rounded-lg hover:bg-gray-100 hover:text-black focus:ring-4 focus:ring-gray-400">
         ¿Dónde encontrarnos?
       </a>
     </div>
-
     <!-- Icono de desplazamiento hacia abajo -->
-    <div class="animate-bounce mt-10 mb-2">
+    <div class="animate-bounce mt-10 mb-5">
       <svg class="text-white w-6 h-5 mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v16.19l6.22-6.22a.75.75 0 111.06 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06l6.22 6.22V3a.75.75 0 01.75-.75z" clip-rule="evenodd"></path>
       </svg>
     </div>
   </div>
 </section>
+<script src="/src/utils/HeroSectionImages.js"></script>
+
+
+
+<style>
+#hero-section {
+    transition: background-image 0.9s; /* Transición suave entre imágenes */
+}
+
+
+</style>

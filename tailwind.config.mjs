@@ -18,7 +18,9 @@ export default {
 			esmeralda: '#00b894',
 			// Azul mediano fuerte
 		  },
-		  // Gradiente lineal de arriba a abajo usando los colores personalizados
+		  fontFamily: {
+			'raleway': ['Raleway', 'sans-serif'],
+		  },
 		  backgroundImage: {
 			'gradient-blue': 'linear-gradient(to bottom, var(--colors-skyBlue), var(--colors-strongBlue))',
 		  },
