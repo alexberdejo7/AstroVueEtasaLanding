@@ -7,7 +7,7 @@ export default {
 			skyBlue: '#87CEEB',    // Azul cielo muy claro
 			strongBlue: '#00008B', 
 			graysoft: '#F5FFFA',
-			etasa: '#ffc800',
+			etasa: '#ffb810',
 			azulgris: '#7f8c9d',
 			dorado: '#FFD700',
 			cobre: '#B87333',

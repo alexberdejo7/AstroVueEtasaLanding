@@ -5,13 +5,13 @@ const services = [
       titulo: 'Estructuras metálicas en general',
       imagen: '../../public/ImagenesEtasa/Card1.jpg',
       descripcion:
-        'Construimos una amplia variedad de estructuras metálicas, con resultados duraderos y funcionales.',
+        'Planificación y construcción de estructuras metálicas para edificios, puentes y más.',
     },
     {
       titulo: 'Servicios de Corte y Rolado de Placa',
       imagen: '../../public/ImagenesEtasa/Card1.jpg',
       descripcion:
-        'Soluciones personalizadas de corte, doblez y rolado de placas de acero. Adaptamos a las necesidades específicas de tu proyecto',
+        'Soluciones personalizadas de corte, doblez y rolado de placas de acero. Adaptamos las necesidades específicas de tu proyecto',
     },
     {
       titulo: 'Estructuras Tridimensionales',
@@ -21,7 +21,7 @@ const services = [
     {
       titulo: 'Cubiertas autosoportantes',
       imagen: '../../public/ImagenesEtasa/Card1.jpg',
-      descripcion: 'Este sistema de coberturas le permite aprovechar al máximo el espacio al no requerir de ningún apoyo intermedio; además de una mayor velocidad de fabricación e instalación.   ',
+      descripcion: ' Implementación de cubiertas autosoportantes eficientes, maximizando espacio y reduciendo tiempos',
     },
     {
       titulo: 'Bodegas Comerciales:',
@@ -29,9 +29,9 @@ const services = [
       descripcion: 'Creamos bodegas eficientes para el almacenamiento seguro de productos y mercancías.',
     },
     {
-      titulo: 'Edificios Metálicos:',
+      titulo: 'Contruccion con Acero:',
       imagen: '../../public/ImagenesEtasa/Card1.jpg',
-      descripcion: 'Fabricación integral de edificios con perfiles estructurales innovadores y tecnología avanzada para obras únicas.',
+      descripcion: 'Suministro y ejecución integral en proyectos de construcción con acero de alta calidad.',
     },
     {
       titulo: 'Pailería Versátil',
@@ -46,7 +46,7 @@ const services = [
     {
       titulo: 'Herrería en general',
       imagen: '../../public/ImagenesEtasa/Card1.jpg',
-      descripcion: 'Servicios completos de fabricación y diseño de elementos metálicos, desde puertas, escaleras hasta anuncios espectaculares  ',
+      descripcion: 'Servicios completos en herrería, incluyendo fabricación de puertas, ventanas y escaleras.',
     },
     {
       titulo: 'Tanques de todo tipo',

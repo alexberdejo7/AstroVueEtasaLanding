@@ -21,16 +21,16 @@ import '@fortawesome/fontawesome-free/css/all.css';
     <nav class="mr-5 hidden md:flex md:w-2/3 md:justify-end">
   <ul class="md:flex md:space-x-9 xl:mr-7">
     <li>
-      <a href="#" class="text-gray-900 hover:text-amber-600">Inicio</a>
+      <a href="#" class="text-gray-900 font-black text-md hover:text-amber-600">Inicio</a>
     </li>
     <li>
-      <a href="#Servicios" class="text-gray-900 hover:text-amber-600 ">Servicios</a>
+      <a href="#Servicios" class="text-gray-900 font-black text-md hover:text-amber-600 ">Servicios</a>
     </li>
     <li>
-      <a href="#Swiper" class="block text-gray-900 hover:text-amber-600">Proyectos</a>
+      <a href="#Swiper" class="block text-gray-900 font-black text-md hover:text-amber-600">Proyectos</a>
     </li>
     <li>
-      <a href="#footer" class="block text-gray-900 hover:text-amber-600">Contacto</a>
+      <a href="#footer" class="block text-gray-900 font-black text-md hover:text-amber-600">Contacto</a>
     </li>
   </ul>
 </nav>
