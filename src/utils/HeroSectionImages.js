@@ -1,10 +1,9 @@
 
 // Tu script de JavaScript aquí
 let images = [
-    "/ImagenesEtasa/imagenfondo.jpeg", 
-    "/ImagenesEtasa/Card0.jpg", 
-    "/ImagenesEtasa/Card5.jpg"
-
+    "/EtasaImg/FOTO49.jpg",
+    "/EtasaImg/FOTO24.jpg",
+    "/EtasaImg/FOTO19.jpg" 
 ];
 let currentImage = 0;
 
