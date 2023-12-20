@@ -4,14 +4,17 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 
 <template>
-  <header class="bg-white rounded-sm py-1 mx-auto px-10 md:flex md:items-center md:justify-between sticky top-0 w-full z-50">
+  <header class="bg-white rounded-sm  mx-auto px-10 md:flex md:items-center md:justify-between sticky top-0 w-full z-50">
     
     <!-- Logo -->
     <div class="md:w-1/3 xs:w-1/4 md:sticky md:top-0 flex items-center justify-start md:justify-between left-0 right-0">
-      <img class="ml-3 w-14 animate-rotate-y animate-once" src="../../ImagenesEtasa/Logo-Etasa-1.png" alt="Etasa Logo" />
+      <a href="/">
+        <img class="ml-3 w-12 h-12 animate-rotate-y animate-once" src="../../ImagenesEtasa/Logo-Etasa-1.webp" alt="Etasa Logo" />
+      </a>
+        
       <!-- Botón para dispositivos móviles -->
       <div class=" md:hidden cursor-pointer flex items-center justify-end w-full">
-        <button class="text-gray-900 cursor-pointer hover:text-amber-600" @click="toggleMobileMenu">
+        <button aria-label="Menu de navegacion"  class="text-gray-900 cursor-pointer hover:text-amber-600" @click="toggleMobileMenu">
           <i class="animate-bounce fas fa-bars"></i> <!-- Icono del menú -->
         </button>
       </div>
@@ -30,29 +33,31 @@ import '@fortawesome/fontawesome-free/css/all.css';
       <a href="/#Proyectos" class="block text-gray-900 font-black text-md hover:text-amber-600">Proyectos</a>
     </li>
     <li>
-      <a href="/#Footer" class="block text-gray-900 font-black text-md hover:text-amber-600">Contacto</a>
+      <a href="/#footer" class="block text-gray-900 font-black text-md hover:text-amber-600">Contacto</a>
     </li>
   </ul>
 </nav>
 
     <!-- Menú desplegable para dispositivos móviles -->
     <div
-      class="md:hidden fixed top-0 left-0 w-full h-full bg-gray-950 bg-opacity-75"
+      class="md:hidden fixed top-0 left-0 w-full h-full bg-gray-950 bg-opacity-80"
       :class="{ 'hidden': !showMobileMenu }"
       ref="mobileMenu"
     >
-      <ul class="h-full bg-gray-950 gap-3 font-bold opacity-70 flex flex-col justify-center items-center">
+      <ul class="h-full bg-gray-950 gap-5 font-black opacity-70 flex flex-col justify-center items-center">
         <li>
-          <a href="#" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Inicio</a>
+          <a href="/" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Inicio</a>
         </li>
         <li>
-          <a href="#Servicios" class="text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Servicios</a>
+          <a href="/#Nuestros-Trabajos" class="text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Servicios</a>
         </li>
         <li>
-          <a href="#Proyectos" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Proyectos</a>
+          <a href="/#Proyectos" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Proyectos</a>
         </li>
         <li>
-          <a href="#Contacto" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Contacto</a>
+          <a href="/#footer" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Footer</a>
+        </li>
+        <li>
         </li>
         <!-- Botón para cerrar el menú desplegable -->
         <li class="mt-4">
