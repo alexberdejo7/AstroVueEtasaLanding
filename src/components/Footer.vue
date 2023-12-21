@@ -11,25 +11,28 @@
     <div class="space-y-4 text-xs text-white">
       <h4 class="text-lg text-etasa font-semibold">Contáctanos</h4>
       <div class="space-y-2">
-        <div class="flex items-center space-x-2">
+        <div class="flex items-center space-x-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="28"
+            height="28"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="h-4 w-4 text-gray-50"
+            class="h-7 w-7 text-gray-200"
           >
             <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
             <circle cx="12" cy="10" r="3"></circle>
           </svg>
-          <p>Ciudad de Mexico - Cuernavaca - Puebla </p>
+          <p class="text-lg max-w-prose text-wrap p-2">Ciudad de Mexico - Cuernavaca - Puebla </p>
         </div>
-        <div class="flex items-center space-x-2">
+        <div class="flex items-center space-x-3">
+          
+        <div class="flex items-center space-x-3">
+        
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -40,18 +43,23 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="h-4 w-4 text-gray-50"
+            class="h-6 w-6 text-gray-200"
           >
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h4a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
           </svg>
-            <a href="tel:+52017773219141">Tel: +52 (777) 321 9141</a>
+          
+            <a class="p-2 m-2 text-lg lg:text-sm" href="tel:+52017773219141">Tel: +52 (777) 321 9141</a>
+        </div>
+        </div>
 
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" 
-          viewBox="0 0 48 48" class="w-4 h-4">
+        <div class="flex items-center space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" 
+          viewBox="0 0 48 48" class="w-6 h-6">
           <path fill="#fff" 
           d="M4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5c5.1,0,9.8,2,13.4,5.6	C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19c0,0,0,0,0,0h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3z"></path><path fill="#fff" d="M4.9,43.8c-0.1,0-0.3-0.1-0.4-0.1c-0.1-0.1-0.2-0.3-0.1-0.5L7,33.5c-1.6-2.9-2.5-6.2-2.5-9.6	C4.5,13.2,13.3,4.5,24,4.5c5.2,0,10.1,2,13.8,5.7c3.7,3.7,5.7,8.6,5.7,13.8c0,10.7-8.7,19.5-19.5,19.5c-3.2,0-6.3-0.8-9.1-2.3	L5,43.8C5,43.8,4.9,43.8,4.9,43.8z"></path><path fill="#cfd8dc" d="M24,5c5.1,0,9.8,2,13.4,5.6C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19h0c-3.2,0-6.3-0.8-9.1-2.3	L4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5 M24,43L24,43L24,43 M24,43L24,43L24,43 M24,4L24,4C13,4,4,13,4,24	c0,3.4,0.8,6.7,2.5,9.6L3.9,43c-0.1,0.3,0,0.7,0.3,1c0.2,0.2,0.4,0.3,0.7,0.3c0.1,0,0.2,0,0.3,0l9.7-2.5c2.8,1.5,6,2.2,9.2,2.2	c11,0,20-9,20-20c0-5.3-2.1-10.4-5.8-14.1C34.4,6.1,29.4,4,24,4L24,4z"></path><path fill="#40c351" d="M35.2,12.8c-3-3-6.9-4.6-11.2-4.6C15.3,8.2,8.2,15.3,8.2,24c0,3,0.8,5.9,2.4,8.4L11,33l-1.6,5.8	l6-1.6l0.6,0.3c2.4,1.4,5.2,2.2,8,2.2h0c8.7,0,15.8-7.1,15.8-15.8C39.8,19.8,38.2,15.8,35.2,12.8z"></path><path fill="#fff" fill-rule="evenodd" d="M19.3,16c-0.4-0.8-0.7-0.8-1.1-0.8c-0.3,0-0.6,0-0.9,0	s-0.8,0.1-1.3,0.6c-0.4,0.5-1.7,1.6-1.7,4s1.7,4.6,1.9,4.9s3.3,5.3,8.1,7.2c4,1.6,4.8,1.3,5.7,1.2c0.9-0.1,2.8-1.1,3.2-2.3	c0.4-1.1,0.4-2.1,0.3-2.3c-0.1-0.2-0.4-0.3-0.9-0.6s-2.8-1.4-3.2-1.5c-0.4-0.2-0.8-0.2-1.1,0.2c-0.3,0.5-1.2,1.5-1.5,1.9	c-0.3,0.3-0.6,0.4-1,0.1c-0.5-0.2-2-0.7-3.8-2.4c-1.4-1.3-2.4-2.8-2.6-3.3c-0.3-0.5,0-0.7,0.2-1c0.2-0.2,0.5-0.6,0.7-0.8	c0.2-0.3,0.3-0.5,0.5-0.8c0.2-0.3,0.1-0.6,0-0.8C20.6,19.3,19.7,17,19.3,16z" clip-rule="evenodd"></path>
           </svg>  
-            <a href="https://wa.me/527773507884">  777 328 6717</a>  
+            <a  class="p-2 m-2 text-lg lg:text-sm" href="https://wa.me/527773507884">  777 328 6717</a>  
+
         </div>
 
         <div class="flex items-center space-x-2">
@@ -70,8 +78,8 @@
             <rect width="20" height="16" x="2" y="4" rx="2"></rect>
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
           </svg>
-          <a href="mailto:etasa_sa@yahoo.com.mx">Envíanos un correo</a>
-          <p></p>
+          <a class="p-2 m-2 text-lg" href="mailto:etasa_sa@yahoo.com.mx">Envíanos un correo</a>
+          
         </div>
       </div>
     </div>
@@ -134,7 +142,7 @@
       
     </div>
   </div>
-  <div class="mt-8 border-t border-emerald-400 pt-8 items-center">
+  <div class="mt-3 border-t border-emerald-400 pt-3 items-center">
     <div class="mx-auto">
       <img
         src="../../ImagenesEtasa/Logo-Etasa-1.webp"
