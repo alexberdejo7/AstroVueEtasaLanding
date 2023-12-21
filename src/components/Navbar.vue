@@ -89,7 +89,7 @@ const toggleMobileMenu = () => {
   if (showMobileMenu.value) {
     disableScroll();
     // Agregamos el evento click al objeto document para cerrar el menú al hacer clic en cualquier parte de la pantalla
-    document.addEventListener('click', handleOutsideClick);
+    document.addEventListener('click',  handleOutsideClick);
   } else {
     enableScroll();
     // Removemos el evento click del objeto document cuando el menú ya no está visible

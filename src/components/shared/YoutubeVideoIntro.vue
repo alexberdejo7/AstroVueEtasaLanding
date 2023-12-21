@@ -2,12 +2,14 @@
   <div id="youtube-video" v-if="videoLoaded">
     <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe 
+        muted
         loading="lazy"
         v-bind:src="videoUrl"
         frameborder="0" 
         allow="autoplay; fullscreen; picture-in-picture" 
         style="position:absolute;top:0;left:0;width:100%;height:100%;" 
         title="Etasa - Intro">
+        
       </iframe>
     </div>
   </div>
@@ -26,3 +28,5 @@ onMounted(() => {
   }, 6000); // 5000 milisegundos = 5 segundos
 });
 </script>
+
+
