@@ -11,20 +11,24 @@ import Projects from '../components/Projects.astro';
 
 ---
 
-<Layout title="ETASA - EDIFICACIONES Y TRABAJOS DE ACERO.">
-	
+<Layout title="ETASA - EDIFICACIONES Y TRABAJOS DE ACERO.">	
 		
 		
 		<HeroSection  />
 		<Services />
-		<Cards /> 
-		
-
+		<Cards  /> 
 		<Projects /> 
-		
 
-		
-		
+		<script >
+			if (typeof window !== 'undefined') {
+				window.addEventListener('load', () => {
+					import('aos').then(AOS => {
+						AOS.default.init();
+					});
+				});
+			}
+		</script>
+	
 	
 </Layout>
 

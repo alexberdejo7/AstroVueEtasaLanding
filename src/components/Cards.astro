@@ -1,6 +1,10 @@
 ---
 // src/components/Cards.astro
 import services from '../utils/Services.js';
+import 'aos/dist/aos.css';
+
+
+
 ---
 
 <section id="Nuestros-Trabajos">
@@ -34,7 +38,11 @@ import services from '../utils/Services.js';
 </h2>
 
 
-<div class="grid p-3 grid-cols-1 gap-11 mx-auto overflow-visible md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 mb-5 mt-12">
+<div 
+data-aos="zoom-in-down"
+data-aos-easing="ease-out-cubic"
+data-aos-duration="1800"
+class="grid p-3 grid-cols-1 gap-11 mx-auto overflow-visible md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 mb-5 mt-12">
     {services.map(card => (
         <div class=" bg-gray-950 border w-60 h-50 border-yellow-600 shadow-md
          shadow-etasa hover:bg-slate-900 rounded-xl overflow-visible 
@@ -56,3 +64,4 @@ import services from '../utils/Services.js';
 </div>
 
 </section>
+

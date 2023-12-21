@@ -9,7 +9,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
     <!-- Logo -->
     <div class="md:w-1/3 xs:w-1/4 md:sticky md:top-0 flex items-center justify-start md:justify-between left-0 right-0">
       <a href="/">
-        <img class="ml-3 w-12 h-12 animate-rotate-y animate-once" src="../../ImagenesEtasa/Logo-Etasa-1.webp" alt="Etasa Logo" />
+        <img class="ml-3 overflow-hidden w-12 h-12 animate-rotate-y animate-once" src="../../ImagenesEtasa/Logo-Etasa-1.webp" alt="Etasa Logo" />
       </a>
         
       <!-- Botón para dispositivos móviles -->
@@ -46,23 +46,23 @@ import '@fortawesome/fontawesome-free/css/all.css';
     >
       <ul class="h-full bg-gray-950 gap-5 font-black opacity-70 flex flex-col justify-center items-center">
         <li>
-          <a href="/" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Inicio</a>
+          <a href="/" class="block text-white font-black hover:text-amber-500" @click.stop="toggleMobileMenu">Inicio</a>
         </li>
         <li>
-          <a href="/#Nuestros-Trabajos" class="text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Servicios</a>
+          <a href="/#Nuestros-Trabajos" class="text-white font-black hover:text-amber-500" @click.stop="toggleMobileMenu">Servicios</a>
         </li>
         <li>
-          <a href="/#Proyectos" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Proyectos</a>
+          <a href="/#Proyectos" class="block text-white font-black hover:text-amber-500" @click.stop="toggleMobileMenu">Proyectos</a>
         </li>
         <li>
-          <a href="/#footer" class="block text-etasa hover:text-amber-500" @click.stop="toggleMobileMenu">Footer</a>
+          <a href="/#footer" class="block text-white font-black hover:text-amber-500" @click.stop="toggleMobileMenu">Contacto</a>
         </li>
         <li>
         </li>
         <!-- Botón para cerrar el menú desplegable -->
         <li class="mt-4">
           <button class="text-white text-3xl hover:text-red-500" @click="toggleMobileMenu">
-            <i class="fas fa-times"></i> <!-- Icono de cerrar -->
+            <i class="fas fa-times text-red-600"></i> <!-- Icono de cerrar -->
           </button>
         </li>
       </ul>

@@ -6,13 +6,8 @@
 
 
 <template>
-
-  <!--
-// v0 by Vercel.
-// https://v0.dev/t/jbYZNP3w04v
--->
 <footer  class="bg-gray-950 text-white py-12 px-4 sm:px-6 lg:px-8">
-  <div id="" class="grid gap-8 grid-cols-1 md:grid-cols-3">
+  <div  class="grid gap-8 grid-cols-1 md:grid-cols-3">
     <div class="space-y-4 text-xs text-white">
       <h4 class="text-lg text-etasa font-semibold">Contáctanos</h4>
       <div class="space-y-2">
@@ -146,7 +141,7 @@
         width="100"
         height="100"
         alt="Company Logo"
-        class="h-10 w-10 items-center lg:mx-auto"
+        class="h-9 w-9 items-center lg:mx-auto"
         style="aspect-ratio: 100 / 100; object-fit: center;"
       />
       <p class="text-sm lg:text-center font-thin text-gray-300">© ETASA 2023</p>
