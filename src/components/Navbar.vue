@@ -9,7 +9,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
     <!-- Logo -->
     <div class="md:w-1/3 xs:w-1/4 md:sticky md:top-0 flex items-center justify-start md:justify-between left-0 right-0">
       <a href="/">
-        <img class="ml-3 overflow-hidden w-12 h-12 animate-rotate-y animate-once" src="../../ImagenesEtasa/Logo-Etasa-1.webp" alt="Etasa Logo" />
+        <img class="ml-3 overflow-hidden w-12 h-9 animate-rotate-y animate-once" width="48px" height="36px" src="../../ImagenesEtasa/Logo-Etasa-1.webp" alt="Etasa Logo" />
       </a>
         
       <!-- Botón para dispositivos móviles -->

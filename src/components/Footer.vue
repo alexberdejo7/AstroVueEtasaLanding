@@ -78,7 +78,7 @@
             <rect width="20" height="16" x="2" y="4" rx="2"></rect>
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
           </svg>
-          <a class="p-2 m-2 text-lg" href="mailto:etasa_sa@yahoo.com.mx">Envíanos un correo</a>
+          <a class="p-2 m-2 text-lg underline" href="mailto:etasa_sa@yahoo.com.mx">Envíanos un correo</a>
           
         </div>
       </div>
@@ -146,11 +146,10 @@
     <div class="mx-auto">
       <img
         src="../../ImagenesEtasa/Logo-Etasa-1.webp"
-        width="100"
-        height="100"
+        width="48px" height="36px"
         alt="Company Logo"
-        class="h-9 w-9 items-center lg:mx-auto"
-        style="aspect-ratio: 100 / 100; object-fit: center;"
+        class="w-12 h-9 items-center lg:mx-auto"
+       
       />
       <p class="text-sm lg:text-center font-thin text-gray-300">© ETASA 2023</p>
     </div>
