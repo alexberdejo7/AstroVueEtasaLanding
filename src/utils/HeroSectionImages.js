@@ -2,9 +2,9 @@
 // Tu script de JavaScript aquí
 let images = [
     "/EtasaImg/FOTO19.webp",
-    "/EtasaImg/casa4.webp",
-    "/EtasaImg/FOTO4.webp",
     "/EtasaImg/FOTO210.webp",
+    "/EtasaImg/puebla2.webp",
+    "/EtasaImg/casa4.webp",
     "/EtasaImg/apple3.webp",
 ];
 let currentImage = 0;
