@@ -1,10 +1,11 @@
 
 // Tu script de JavaScript aquí
 let images = [
-    "/EtasaImg/FOTO21.webp",
-    "/EtasaImg/FOTO24.webp",
     "/EtasaImg/FOTO19.webp",
-    "/EtasaImg/FOTO0.webp"
+    "/EtasaImg/casa4.webp",
+    "/EtasaImg/FOTO4.webp",
+    "/EtasaImg/FOTO210.webp",
+    "/EtasaImg/apple3.webp",
 ];
 let currentImage = 0;
 
@@ -16,7 +17,7 @@ function changeBackgroundImage() {
 // Si deseas ejecutar la función cuando se carga la página
 if (typeof window !== 'undefined') {
     window.onload = function() {
-        setInterval(changeBackgroundImage, 5000);
+        setInterval(changeBackgroundImage, 4000);
     }
 }
 

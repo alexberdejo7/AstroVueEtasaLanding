@@ -14,6 +14,33 @@ gallery: [
       ]
     },
     {
+      "titulo": "Residencia Moderna de Acero",
+      "imagenes": [
+        "/EtasaImg/FOTO112.jpg",
+        "/EtasaImg/FOTO113.webp",
+        "/EtasaImg/FOTO300.webp",
+        "/EtasaImg/puebla1.webp"
+      ]
+    },
+    {
+      "titulo": "Tienda Apple",
+      "imagenes": [
+        "/EtasaImg/apple1.webp",
+        "/EtasaImg/apple3.webp",
+        "/EtasaImg/apple2.webp",
+        "/EtasaImg/apple4.webp"
+      ]
+    },
+    {
+      "titulo": "Casa Habitacion ",
+      "imagenes": [
+        "/EtasaImg/casa3.webp",
+        "/EtasaImg/casa4.webp",
+        "/EtasaImg/casa1.webp",
+        "/EtasaImg/casa2.webp"
+      ]
+    },
+    {
       "titulo": "Outlet Querétaro",
       "imagenes": [
         "/EtasaImg/FOTO55.jpg",
@@ -22,15 +49,7 @@ gallery: [
         "/EtasaImg/FOTO97.jpg"
       ]
     },
-    {
-      "titulo": "Residencia Moderna de Acero",
-      "imagenes": [
-        "/EtasaImg/FOTO112.jpg",
-        "/EtasaImg/FOTO113.webp",
-        "/EtasaImg/FOTO110.jpg",
-        "/EtasaImg/FOTO300.webp"
-      ]
-    },
+    
     {
       "titulo": "Casa de Estructura de Acero",
       "imagenes": [
@@ -44,9 +63,9 @@ gallery: [
       "titulo": "Departamento Ahuehuetes",
       "imagenes": [
         "/EtasaImg/FOTO92.webp",
-        "/EtasaImg/FOTO57.webp",
         "/EtasaImg/FOTO9.jpg",
-        "/EtasaImg/ahuehuetes.webp"
+        "/EtasaImg/ahuehuetes.webp",
+        "/EtasaImg/Ahuehete1.webp"
       ]
     },
     {
@@ -68,12 +87,12 @@ gallery: [
       ]
     },
     {
-      "titulo": "Otros",
+      "titulo": "Parque Via",
       "imagenes": [
-        "/EtasaImg/FOTO151.jpg",
-        "/EtasaImg/FOTO156.jpg",
-        "/EtasaImg/FOTO153.jpg",
-        "/EtasaImg/FOTO155.JPG"
+        "/EtasaImg/parquevia.webp",
+        "/EtasaImg/parquevia1.webp",
+        "/EtasaImg/parquevia2.webp",
+        "/EtasaImg/parquevia3.webp"
       ]
     },
   ]

@@ -25,7 +25,7 @@ onMounted(() => {
   // Retrasa la carga del video
   setTimeout(() => {
     videoLoaded.value = true; // Habilita la visualización del iframe
-  }, 4500); // 4200 milisegundos = 5 segundos
+  }, 4000); // 4200 milisegundos = 5 segundos
 });
 </script>
 
