@@ -41,16 +41,6 @@ gallery: [
       ]
     },
     {
-      "titulo": "Outlet Querétaro",
-      "imagenes": [
-        "/EtasaImg/FOTO55.jpg",
-        "/EtasaImg/FOTO56.jpg",
-        "/EtasaImg/FOTO33.webp",
-        "/EtasaImg/FOTO97.jpg"
-      ]
-    },
-    
-    {
       "titulo": "Casa de Estructura de Acero",
       "imagenes": [
         "/EtasaImg/FOTO90.webp",
